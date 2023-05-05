@@ -23,5 +23,5 @@ jobs:
     - name: Run tests
       run: npm test
 
-    -name: Coverage
-      run: npm test:coverage
+    -name: Run Coverage
+      run: npm run test:coverage
